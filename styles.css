@@ -1,0 +1,276 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.color-primary {
+    background-color: #FE4365;
+}
+
+.color-accent1 {
+    background-color: #FC9D9A;
+}
+
+.color-accent2 {
+    background-color: #F9CDAD;
+}
+
+.color-accent3 {
+    background-color: #C8C8A9;
+}
+
+.color-accent4 {
+    background-color: #83AF9B;
+}
+
+html, body {
+    height: 100%;
+}
+
+.img-container {
+    height: 200px;
+    width: auto;
+    display: inline-flex;
+}
+.avatar {
+    margin-top:15px;
+    margin-left: 15px;
+    
+}
+
+hr {
+    height: 1px;
+    background: #FE4365;
+    border: none;
+}
+
+aside {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+#side-bar {
+    margin-top: -2vh;
+    width: 20%;
+    height: 100vh;
+    background-color: #ffff;    
+}
+
+.card {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+    width:70%;
+    margin:auto;
+    margin-top:15px;
+}
+
+.side-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.side-nav-item {
+    font-size: 16px;
+    height: 20px;
+    margin: 1px;
+    padding: 16px;
+}
+
+.side-nav-item:hover {
+    background-color: rgba(0,0,0,0.1)
+}
+
+footer {
+    height: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #000;
+}
+
+.side-nav-link {
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.container {
+    position: absolute;
+    width: 80%;
+    top: 0px;
+    right: 0px;
+}
+
+.feed-list {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.feed-list-item {
+    width: 100%;
+}
+
+.card-header {
+    display: flex;
+    border-bottom-color: grey;
+}
+
+.card-footer {
+}
+
+.card-content {
+    padding: 10px;
+}
+
+.profile-pic {
+    width: 45px;
+    height: auto;
+    margin: 6px;;
+}
+
+.profile-name {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.beachPic {
+    width: 100%;
+}
+
+.pageTitle {
+    margin-top: -300px;
+    padding-bottom: 200px;
+}
+
+.english {
+    color: white;
+    font-size: 100px;
+}
+
+.arabic {
+    color: white;
+    font-size: 100px;
+    font-family: 'ScheherazadeRegular', serif;
+}
+
+body {
+    margin: 0px;
+}
+
+
+.textsection {
+    margin: 10%;
+    font-size: 30px;
+    color: white;
+    font-family: "Helmet, Freesans, Helvetica, Arial, sans-serif";
+    text-align: center;    
+    font-weight: bold;
+}
+
+.overlay {
+    position: fixed;
+    z-index: -5;
+    background-image: url("https://cdn4.img.sputniknews.com/images/104494/75/1044947540.jpg");
+    background-size: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.nextsection {
+    background-color:white;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.centerColumn {
+    font-size: 20px;
+    font-family: "poppins";
+    max-width:50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.frontLogo {
+    width: 50%;
+    height:auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    bottom: 0px;
+    z-index:1;
+}
+
+.blueBack {
+    background-color: #4AD5FF;
+}
+
+.menu-list {
+    list-style-type: none;
+    left: 25%;
+    margin-top: -5%;
+    padding: 0;
+    width: 50%;
+    position: fixed;
+    overflow: hidden;
+    background-color: #005777;
+    border-radius: 50px;
+    z-index:5;
+}
+
+.menu-list-item {
+    
+    float: center;
+}
+
+.menu-ref {
+    font-family: "poppins";
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 2px 2px #000000;
+}
+
+/* Change the link color to #111 (black) on hover */
+.menu-ref:hover {
+    background: linear-gradient(#00BAFF, rgba(0, 0, 0, 0.00) 60%);
+}
+
+table {
+    top: 8px;
+    height: 849px;
+    left: 8px;
+    width: 1041px;
+    position:absolute;
+}
+
+tr {
+    
+}
+td {
+    
+    padding: 0px;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+    opacity: 0;
+    background-color: #000;
+}
+
+td:hover {
+    opacity: 0.7;
+
+}
+
+
+.nav-footer {
+    position: fixed;
+    bottom: 0px;
+    height: 20px;
+    background-color: grey;
+}
